@@ -14,5 +14,13 @@ End-to-end Python project to collect, process, and detect anomalies in garage do
 ## Run API
 `uvicorn src.api:app --reload`
 
+## CI/CD
+
+This project uses GitHub Actions for CI/CD:
+- Linting (ruff, black)
+- Automated tests (pytest)
+- Runs on every push and PR (see [.github/workflows/ci.yml](.github/workflows/ci.yml))
+
+
 ## Test
 `pytest`
