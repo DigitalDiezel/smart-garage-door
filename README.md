@@ -21,6 +21,7 @@ This project uses GitHub Actions for CI/CD:
 - Runs on every push and PR (see [.github/workflows/ci.yml](.github/workflows/ci.yml))
 
 ## Architecture
+```
 +-----------------------+
 | Garage Telemetry |
 +----------+------------+
@@ -40,6 +41,7 @@ v
 +-----------------------+
 | FastAPI REST API |
 +-----------------------+
+```
 
 - Data from the garage is parsed and engineered
 - Passed through an LSTM autoencoder anomaly model
