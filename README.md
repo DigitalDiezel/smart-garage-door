@@ -7,17 +7,14 @@ End-to-end Python project to collect, process, and detect anomalies in garage do
 - Unit tested and CI/CD enabled
 
 ## Setup
-
 1. `python -m venv venv`
 2. `venv\Scripts\activate`
 3. `pip install -r requirements.txt`
 
 ## Run API
-
 `uvicorn src.api:app --reload`
 
 ## CI/CD
-
 This project uses GitHub Actions for CI/CD:
 - Linting (ruff, black)
 - Automated tests (pytest)
@@ -25,7 +22,6 @@ This project uses GitHub Actions for CI/CD:
 
 
 ## Architecture
-
 +-----------------------+
 | Garage Telemetry |
 +----------+------------+
@@ -52,5 +48,4 @@ v
 
 
 ## Test
-
 `pytest`
