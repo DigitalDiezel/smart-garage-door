@@ -20,7 +20,6 @@ This project uses GitHub Actions for CI/CD:
 - Automated tests (pytest)
 - Runs on every push and PR (see [.github/workflows/ci.yml](.github/workflows/ci.yml))
 
-
 ## Architecture
 +-----------------------+
 | Garage Telemetry |
@@ -45,7 +44,6 @@ v
 - Data from the garage is parsed and engineered
 - Passed through an LSTM autoencoder anomaly model
 - Served via FastAPI endpoint for real-time prediction
-
 
 ## Test
 `pytest`
